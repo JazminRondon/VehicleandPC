@@ -15,15 +15,16 @@ public class Main {
 
         //Arrays
         Vehicle[] vehicle = {car, bike, truck, horse};
-
+        Rideable[] rideable = {bike, horse, rollercoaster};
 
 
 //        VehicleApp.printVehicleNamesandPrice(vehicle);
-        for(int x=0; x<vehicle.length;x++){
+        for (int x = 0; x < vehicle.length; x++) {
             VehicleApp.printVehicleNamesandPrice(vehicle[x]);
         }
+    VehicleApp.getSpeedOfRideableObjects(rideable);
     }
+}
 
-        }
 
 

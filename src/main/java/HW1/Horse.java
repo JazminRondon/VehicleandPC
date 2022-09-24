@@ -12,6 +12,7 @@ public class Horse extends Vehicle implements Rideable {
 
     @Override
     public int milesPerHour() {
-        return 0;
+
+        return (int) getSpeed();
     }
 }

@@ -1,12 +1,8 @@
 package HW1;
 
 
-public class VehicleApp extends Product {
+public class VehicleApp {
 
-    public VehicleApp(String name) {
-        super(name);
-
-    }
 
 
 
@@ -14,7 +10,14 @@ public class VehicleApp extends Product {
    //     int x = 0;
   //      while (x < vehicle.length) {
             System.out.println(vehicle.getName() + vehicle.getPrice());
-//            x++;
+//
+        }
+        public static void getSpeedOfRideableObjects(Rideable[] rideable){
+        int x=0;
+        while(x<rideable.length) {
+            System.out.println(rideable[x].milesPerHour());
+            x++;
+        }
         }
 
     }
