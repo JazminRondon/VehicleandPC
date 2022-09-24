@@ -8,12 +8,6 @@ public abstract class Vehicle extends Product {
 
     private final double tax =0.15 ;
 
-    public Vehicle(String name, float speed) {
-
-        super(name);
-        this.price=price;
-    }
-
     public Vehicle(String name, double price, int qty, float speed) {
         super(name);
         this.price = price;
@@ -60,9 +54,7 @@ public abstract class Vehicle extends Product {
     }
 
 
-    public String getName() {
-        return getName();
-    }
+
 
     public abstract int milesPerHour();
 }
