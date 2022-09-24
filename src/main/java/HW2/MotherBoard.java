@@ -6,4 +6,8 @@ public class MotherBoard {
     private int ramSlots;
     private int cardSlots;
     String bios;
+
+    private void loadProgram(String programName){
+        System.out.println(programName+" is now running");
+    }
 }

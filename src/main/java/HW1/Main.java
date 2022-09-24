@@ -15,9 +15,15 @@ public class Main {
 
         //Arrays
         Vehicle[] vehicle = {car, bike, truck, horse};
-        Rideable[] rideable = {car, bike, truck, horse, rollercoaster};
 
-        System.out.println();
+
+
+//        VehicleApp.printVehicleNamesandPrice(vehicle);
+        for(int x=0; x<vehicle.length;x++){
+            VehicleApp.printVehicleNamesandPrice(vehicle[x]);
+        }
     }
 
-}
+        }
+
+

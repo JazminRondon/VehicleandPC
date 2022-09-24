@@ -1,9 +1,13 @@
 package HW1;
 
 public class Product {
-    public static String name;
+    private   String name;
 
     public Product(String name) {
-        this.name = Product.name;
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 }

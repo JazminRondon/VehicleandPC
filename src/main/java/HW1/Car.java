@@ -1,6 +1,6 @@
 package HW1;
 
-public class Car extends Vehicle implements Rideable {
+public class Car extends Vehicle  {
 
 
  public Car(String name, double price, int qty, float speed) {
@@ -11,6 +11,7 @@ public class Car extends Vehicle implements Rideable {
 
  @Override
  public int milesPerHour() {
+
   return 0;
  }
 

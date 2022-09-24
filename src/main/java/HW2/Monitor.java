@@ -1,19 +1,14 @@
 package HW2;
 
-public abstract class Monitor extends PC {
+public class Monitor {
     private String model;
     private String manufacturer;
     private Resolution nativeResolution;
 
-    public Monitor(String model, String manufacturer, Resolution nativeResolution) {
-        this.model = model;
-        this.manufacturer = manufacturer;
-        this.nativeResolution = nativeResolution;
-    }
-
     public Monitor() {
 
     }
+
 
     public String getModel() {
         return model;
@@ -37,5 +32,9 @@ public abstract class Monitor extends PC {
 
     public void setNativeResolution(Resolution nativeResolution) {
         this.nativeResolution = nativeResolution;
+    }
+    public void drawPixel(int x, int y, String color){
+        System.out.println("Draw pixel at" +x+","+y+""+"in color"+color);
+
     }
 }
